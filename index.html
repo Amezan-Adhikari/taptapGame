@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap tap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="tablet">
+            <div class="box p1" onclick="boxBlueClicked()"></div>
+            <div class="box p2" onclick="boxRedClicked()"></div>
+
+            <div id="blueScore">0</div>
+            <div id="redScore">0</div>
+        </div>
+        <div id="result">
+            <div id="resultTab">
+                <h2></h2>
+                <div class="score">
+                    <div class="blue">0</div>
+                    <div class="red">0</div>
+                </div>
+                <button onclick="playAgain()">Play Again</button>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
